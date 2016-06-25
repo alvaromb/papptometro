@@ -1,2 +1,17 @@
 # react-native-papptometro
-papptometro
+
+The Papptómetro app is a tablet app made with React Native that lets you try all the possible government combinations for the Spanish 2016 elections.
+
+## Install
+Install and configure React Native. Then, clone the project and run
+
+```sh
+$ npm i
+```
+
+## Thanks
+This is an [APSL.net](https://www.apsl.net) lab project made possible thanks to the help of [Juan Font](https://github.com/juanfont) and [Politikon](http://politikon.es).
+
+## License
+
+MIT
