@@ -16,6 +16,8 @@ $ npm i
 ## Thanks
 This is an [APSL.net](https://www.apsl.net) lab project made possible thanks to the help of [Juan Font](https://github.com/juanfont) and [Politikon](http://politikon.es).
 
+The Papptómetro app uses the [EL PAÍS elections API](http://politica.elpais.com/politica/2011/11/13/actualidad/1321193831_901025.html).
+
 ## License
 
 MIT
