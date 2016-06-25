@@ -5,13 +5,17 @@
  */
 
 import React, { Component } from 'react'
-import { AppRegistry } from 'react-native'
+import { AppRegistry, UIManager } from 'react-native'
 import { Provider } from 'react-redux'
 import { store } from './app/Stores'
 import App from './app/App'
 
 class papptometro extends Component {
-  render() {
+  componentDidMount () {
+    UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)
+  }
+
+  render () {
     return (
       <Provider store={store}>
         <App />
